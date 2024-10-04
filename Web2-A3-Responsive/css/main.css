@@ -167,13 +167,13 @@ section {
 	background-color: #d5395b;
 	color: white;
 	padding: 40px;
-	text-align: center;
 	border-bottom: 15px solid #F2B100;
 }
 
 .footer-nav {
 	justify-content: flex-start;
 	gap: 10px;
+	margin-top: -5em;
 }
 
 .footer-nav .dot {
@@ -197,14 +197,13 @@ section {
 .footer h2 {
 	color: #fff;
 	font-size: 48px;
+
 }
 
 .footer-grid {
 	
 		display: grid;
-		grid-template-columns: auto 1fr 350px;
-		grid-area: 1 / 2 / 3 / 3;
-		display: grid;
+		grid-template-columns: 2fr 350px;
 		grid-template-rows: auto auto;
 
 	
@@ -313,7 +312,7 @@ section {
 .grid-long {
 
 	width: 300px;
-	height: 30px;
+	height: 45px;
 	box-sizing: border-box;
 	border: 3px solid #FFDDD2;
 	background-color: #FFDDD2;
@@ -321,6 +320,8 @@ section {
 	font-weight: bold;
 	font-size: 18px;
 	font-family: Poppins;
+	text-align: center;
+	align-items: center;
 
 }
 
@@ -331,7 +332,6 @@ section {
 
 .grid-fill {
 	background-color: #d5395b;
-
 }
 
 .wrap {
@@ -437,16 +437,13 @@ section {
 
 	.grid {
 		display: grid;
-		grid-template-columns: auto 1fr 350px;
-		grid-area: 1 / 2 / 3 / 3;
-		display: grid;
-		grid-template-rows: auto auto;
-
+		grid-template-columns: repeat(1, 62px);
 	}
 
 	.footer-nav{
 		justify-content: center;
 		padding: 4rem;
+
 	}
 
 	.hamburger-grid{
@@ -463,4 +460,15 @@ section {
 		align-items: center;
 		justify-self: auto;
 	}
+
+	.footer-grid {
+	
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.footer h2{
+		text-align: center;
+	}
+	
 }
